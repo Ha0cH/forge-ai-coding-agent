@@ -50,13 +50,14 @@ cd forge-ai-coding-agent
 Create and activate a virtual environment:
 
 ```bash
-python -m venv .venv source .venv/bin/activate 
+python -m venv .venv 
+source .venv/bin/activate 
 ```
 
 Install dependencies:
 
 ```bash
-pip install -r requirements.txt 
+uv sync
 ```
 
 Create a .env file:
