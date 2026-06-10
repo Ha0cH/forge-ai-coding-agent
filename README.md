@@ -42,7 +42,10 @@ forge/
 
 Clone the repository:
 
-bash git clone https://github.com/Ha0cH/forge-ai-coding-agent.git cd forge-ai-coding-agent
+```bash
+git clone https://github.com/Ha0cH/forge-ai-coding-agent.git 
+cd forge-ai-coding-agent
+```
 
 Create and activate a virtual environment:
 
