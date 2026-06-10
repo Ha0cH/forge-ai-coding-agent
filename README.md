@@ -24,7 +24,19 @@ The project demonstrates core concepts behind modern AI agents, including tool c
 
 ## Project Structure
 
-text forge/ ├── main.py ├── prompts.py ├── config.py ├── functions/ │   ├── call_functions.py │   ├── get_files_info.py │   ├── get_file_content.py │   ├── write_file.py │   └── run_python_file.py └── calculator/ 
+```text
+forge/
+├── main.py
+├── prompts.py
+├── config.py
+├── functions/
+│   ├── call_functions.py
+│   ├── get_files_info.py
+│   ├── get_file_content.py
+│   ├── write_file.py
+│   └── run_python_file.py
+└── calculator/
+```
 
 ## Installation
 
