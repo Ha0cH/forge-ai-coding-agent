@@ -46,33 +46,47 @@ bash git clone https://github.com/Ha0cH/forge-ai-coding-agent.git cd forge-ai-co
 
 Create and activate a virtual environment:
 
-bash python -m venv .venv source .venv/bin/activate 
+```bash
+python -m venv .venv source .venv/bin/activate 
+```
 
 Install dependencies:
 
-bash pip install -r requirements.txt 
+```bash
+pip install -r requirements.txt 
+```
 
 Create a .env file:
 
-env GEMINI_API_KEY=your_api_key_here 
+```env
+GEMINI_API_KEY=your_api_key_here 
+```
 
 ## Usage
 
 Basic prompt:
 
-bash uv run main.py "What files are in the root directory?" 
+```bash
+uv run main.py "What files are in the root directory?" 
+```
 
 Read a file:
 
-bash uv run main.py "Read pkg/calculator.py" 
+```bash
+uv run main.py "Read pkg/calculator.py" 
+```
 
 Fix a bug:
 
-bash uv run main.py "Fix the bug in pkg/calculator.py" 
+```bash
+uv run main.py "Fix the bug in pkg/calculator.py" 
+```
 
 Enable verbose mode:
 
-bash uv run main.py "Read main.py" --verbose 
+```bash
+uv run main.py "Read main.py" --verbose 
+```
 
 ## How It Works
 
